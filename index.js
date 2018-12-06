@@ -35111,7 +35111,7 @@ function detachParticipantTracks(participant) {
 window.addEventListener('beforeunload', leaveRoomIfJoined);
 
 // Obtain a token from the server in order to connect to the Room.
-$.getJSON('http://http://18.211.188.129:3003//token', function(data) {
+$.getJSON('http://18.211.188.129:3003/token', function(data) {
   identity = data.identity;
   document.getElementById('room-controls').style.display = 'block';
 
